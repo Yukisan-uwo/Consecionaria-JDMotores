@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsDatos" targetNamespace="http://tempuri.org/dsDatos.xsd" xmlns:mstns="http://tempuri.org/dsDatos.xsd" xmlns="http://tempuri.org/dsDatos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsDatos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsDatos" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsDatos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dsVentasPorMarca" msprop:Generator_RowEvHandlerName="dsVentasPorMarcaRowChangeEventHandler" msprop:Generator_RowDeletedName="dsVentasPorMarcaRowDeleted" msprop:Generator_RowDeletingName="dsVentasPorMarcaRowDeleting" msprop:Generator_RowEvArgName="dsVentasPorMarcaRowChangeEvent" msprop:Generator_TablePropName="dsVentasPorMarca" msprop:Generator_RowChangedName="dsVentasPorMarcaRowChanged" msprop:Generator_UserTableName="dsVentasPorMarca" msprop:Generator_RowChangingName="dsVentasPorMarcaRowChanging" msprop:Generator_RowClassName="dsVentasPorMarcaRow" msprop:Generator_TableClassName="dsVentasPorMarcaDataTable" msprop:Generator_TableVarName="tabledsVentasPorMarca">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Marca" msprop:Generator_ColumnPropNameInTable="MarcaColumn" msprop:Generator_ColumnPropNameInRow="Marca" msprop:Generator_UserColumnName="Marca" msprop:Generator_ColumnVarNameInTable="columnMarca" type="xs:string" minOccurs="0" />
+              <xs:element name="Mes" msprop:Generator_ColumnPropNameInTable="MesColumn" msprop:Generator_ColumnPropNameInRow="Mes" msprop:Generator_UserColumnName="Mes" msprop:Generator_ColumnVarNameInTable="columnMes" type="xs:string" minOccurs="0" />
+              <xs:element name="Ventas" msprop:Generator_ColumnPropNameInRow="Ventas" msprop:Generator_ColumnPropNameInTable="VentasColumn" msprop:Generator_ColumnVarNameInTable="columnVentas" msprop:Generator_UserColumnName="Ventas" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dsComprasPorMarca" msprop:Generator_RowEvHandlerName="dsComprasPorMarcaRowChangeEventHandler" msprop:Generator_RowDeletedName="dsComprasPorMarcaRowDeleted" msprop:Generator_RowDeletingName="dsComprasPorMarcaRowDeleting" msprop:Generator_RowEvArgName="dsComprasPorMarcaRowChangeEvent" msprop:Generator_TablePropName="dsComprasPorMarca" msprop:Generator_RowChangedName="dsComprasPorMarcaRowChanged" msprop:Generator_RowChangingName="dsComprasPorMarcaRowChanging" msprop:Generator_TableClassName="dsComprasPorMarcaDataTable" msprop:Generator_RowClassName="dsComprasPorMarcaRow" msprop:Generator_TableVarName="tabledsComprasPorMarca" msprop:Generator_UserTableName="dsComprasPorMarca">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Marca" msprop:Generator_ColumnPropNameInRow="Marca" msprop:Generator_ColumnPropNameInTable="MarcaColumn" msprop:Generator_ColumnVarNameInTable="columnMarca" msprop:Generator_UserColumnName="Marca" type="xs:string" minOccurs="0" />
+              <xs:element name="Mes" msprop:Generator_ColumnPropNameInRow="Mes" msprop:Generator_ColumnPropNameInTable="MesColumn" msprop:Generator_ColumnVarNameInTable="columnMes" msprop:Generator_UserColumnName="Mes" type="xs:string" minOccurs="0" />
+              <xs:element name="Compra" msprop:Generator_ColumnPropNameInRow="Compra" msprop:Generator_ColumnPropNameInTable="CompraColumn" msprop:Generator_ColumnVarNameInTable="columnCompra" msprop:Generator_UserColumnName="Compra" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dsEmpleadosTop" msprop:Generator_RowEvHandlerName="dsEmpleadosTopRowChangeEventHandler" msprop:Generator_RowDeletedName="dsEmpleadosTopRowDeleted" msprop:Generator_RowDeletingName="dsEmpleadosTopRowDeleting" msprop:Generator_RowEvArgName="dsEmpleadosTopRowChangeEvent" msprop:Generator_TablePropName="dsEmpleadosTop" msprop:Generator_RowChangedName="dsEmpleadosTopRowChanged" msprop:Generator_RowChangingName="dsEmpleadosTopRowChanging" msprop:Generator_TableClassName="dsEmpleadosTopDataTable" msprop:Generator_RowClassName="dsEmpleadosTopRow" msprop:Generator_TableVarName="tabledsEmpleadosTop" msprop:Generator_UserTableName="dsEmpleadosTop">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Nombres" msprop:Generator_ColumnPropNameInRow="Nombres" msprop:Generator_ColumnPropNameInTable="NombresColumn" msprop:Generator_ColumnVarNameInTable="columnNombres" msprop:Generator_UserColumnName="Nombres" type="xs:string" minOccurs="0" />
+              <xs:element name="Mes" msprop:Generator_ColumnPropNameInRow="Mes" msprop:Generator_ColumnPropNameInTable="MesColumn" msprop:Generator_ColumnVarNameInTable="columnMes" msprop:Generator_UserColumnName="Mes" type="xs:string" minOccurs="0" />
+              <xs:element name="Venta" msprop:Generator_ColumnPropNameInRow="Venta" msprop:Generator_ColumnPropNameInTable="VentaColumn" msprop:Generator_ColumnVarNameInTable="columnVenta" msprop:Generator_UserColumnName="Venta" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dsCompraVenta" msprop:Generator_RowEvHandlerName="dsCompraVentaRowChangeEventHandler" msprop:Generator_RowDeletedName="dsCompraVentaRowDeleted" msprop:Generator_RowDeletingName="dsCompraVentaRowDeleting" msprop:Generator_RowEvArgName="dsCompraVentaRowChangeEvent" msprop:Generator_TablePropName="dsCompraVenta" msprop:Generator_RowChangedName="dsCompraVentaRowChanged" msprop:Generator_RowChangingName="dsCompraVentaRowChanging" msprop:Generator_TableClassName="dsCompraVentaDataTable" msprop:Generator_RowClassName="dsCompraVentaRow" msprop:Generator_TableVarName="tabledsCompraVenta" msprop:Generator_UserTableName="dsCompraVenta">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Mes" msprop:Generator_ColumnPropNameInRow="Mes" msprop:Generator_ColumnPropNameInTable="MesColumn" msprop:Generator_ColumnVarNameInTable="columnMes" msprop:Generator_UserColumnName="Mes" type="xs:string" minOccurs="0" />
+              <xs:element name="Compra" msprop:Generator_ColumnPropNameInRow="Compra" msprop:Generator_ColumnPropNameInTable="CompraColumn" msprop:Generator_ColumnVarNameInTable="columnCompra" msprop:Generator_UserColumnName="Compra" type="xs:string" minOccurs="0" />
+              <xs:element name="Venta" msprop:Generator_ColumnPropNameInRow="Venta" msprop:Generator_ColumnPropNameInTable="VentaColumn" msprop:Generator_ColumnVarNameInTable="columnVenta" msprop:Generator_UserColumnName="Venta" type="xs:string" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_UserColumnName="Total" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
