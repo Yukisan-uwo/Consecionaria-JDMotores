@@ -26,10 +26,10 @@ namespace InterfacesConcesionaria
 
         public bdConcesionaria()
         {
-            Server = "mssql-201824-0.cloudclusters.net,10016";
-            Database = "Concesionaria";
-            Usuario = "Admin";
-            Clave = "Admin123";
+            Server = "STEVEN\\SQLSTEV";
+            Database = "Concesionaria2";
+            Usuario = "sa";
+            Clave = "12345";
         }
 
         public bdConcesionaria(string Server, string Database, string Usuario, string Clave)

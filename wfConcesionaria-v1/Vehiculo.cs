@@ -31,7 +31,7 @@ namespace wfConcesionaria_v1
             conexion = new SqlConnection();
             try
             {
-                conexion.ConnectionString = "server=mssql-201824-0.cloudclusters.net,10016; database=Concesionaria; User id=Admin; Password=Admin123";
+                conexion.ConnectionString = "server=STEVEN\\SQLSTEV; database=Concesionaria2; User id=sa; Password=12345";
                 conexion.Open();
             }
             catch 
