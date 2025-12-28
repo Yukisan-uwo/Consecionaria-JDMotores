@@ -1,10 +1,30 @@
-####################################################################################################################
-# WARNING: Do not store sensitive information in this file, as its contents will be included in the Qodana report. #
-####################################################################################################################
+###############################################################################
+# WARNING: Do not store sensitive information in this file, as its contents
+# will be included in the Qodana report.
+###############################################################################
 
 version: "1.0"
-linter: jetbrains/qodana-jvm:2025.2
+
+# ✅ Cambia el linter de JVM (Java) a .NET (C#)
+linter: jetbrains/qodana-dotnet:2025.2
+
+# ✅ Recomendado para proyectos .NET de escritorio: ejecución nativa (no Docker)
+withinDocker: false
+
 profile:
   name: qodana.recommended
+
+# ✅ Indica la solución que debe analizar (pon el nombre exacto de tu .sln)
+dotnet:
+  solution: JDMotores.sln
+
+# ✅ Excluir carpetas típicas que generan ruido
+exclude:
+  - name: Exclude build output
+    paths:
+      - bin
+      - obj
+
+# ✅ (Opcional) Mantén el audit de licencias si te interesa como evidencia extra
 include:
   - name: CheckDependencyLicenses
